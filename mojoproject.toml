@@ -1,0 +1,12 @@
+[project]
+authors = ["HamxAnwar <hamzaanwar93@outlook.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+description = "A basic mojo code for a guesser game!"
+name = "guesser_game_mojo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.5.0,<25"
